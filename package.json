@@ -1,12 +1,12 @@
 {
-  "author": "Eric Zhang (http://ericzhang.com)",
-  "name": "binaryjs",
-  "description": "Binary realtime streaming made easy",
-  "version": "0.1.4",
-  "homepage": "http://binaryjs.com",
+  "author": "Tom Zhou",
+  "name": "jspp",
+  "description": "Lightly modified version of binaryjs/binaryjs to bring p2p binary stream for web and node.js",
+  "version": "0.0.0",
+  "homepage": "http://iwebpp.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/binaryjs/binaryjs.git"
+    "url": "git://github.com/InstantWebP2P/jspp.git"
   },
   "main": "lib/server.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "node": ">=0.6.0"
   },
   "dependencies": {
-    "streamws" : ">=0.0.0",
+    "wspp" : ">=0.0.0",
     "binarypack": ">=0.0.0",
     "streamers": ">=0.1.0"
   },
