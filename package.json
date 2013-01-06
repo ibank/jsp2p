@@ -16,7 +16,7 @@
     "node": ">=0.6.0"
   },
   "dependencies": {
-    "wspp" : ">=0.0.0",
+    "wspp": ">=0.0.0",
     "binarypack": ">=0.0.3",
     "streamers": ">=0.1.0"
   },
