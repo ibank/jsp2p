@@ -1,6 +1,6 @@
 {
   "author": "Tom Zhou",
-  "name": "jspp",
+  "name": "jsp2p",
   "description": "Lightly modified version of binaryjs/binaryjs to bring p2p binary stream for web and node.js",
   "version": "0.0.0",
   "homepage": "http://iwebpp.com",
