@@ -1,7 +1,7 @@
 {
   "author": "Tom Zhou",
   "name": "jsp2p",
-  "description": "Lightly modified version of binaryjs/binaryjs to bring p2p binary stream for web and node.js",
+  "description": "Lightly modified version of binaryjs to bring p2p binary stream for web and node.js",
   "version": "0.1.7",
   "homepage": "http://iwebpp.com",
   "repository": {
@@ -16,7 +16,7 @@
     "node": ">=0.6.0"
   },
   "dependencies": {
-    "wspp": ">=0.0.0",
+    "wspp": "latest",
     "binarypack": ">=0.0.3",
     "streamers": ">=0.1.0"
   },

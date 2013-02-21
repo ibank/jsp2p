@@ -12,6 +12,7 @@ This class is a the BinaryJS websocket server. It is an `EventEmitter`.
   * `server` String. Use an existing `http.Server`
   * `path` 
   * `chunkSize` Number. Passed into constructor of connecting `BinaryClient`. Default `40960`
+  * `server` ws.Server object. Use an existing `WebSocketServer` instead of creating a new one
 
 Construct a new server object.
 
@@ -148,7 +149,7 @@ Resume the stream.
 Sends an end message, triggering the `end` event and marks `stream.readable` false but does not close the socket.
 
 
-### stream.write(data, [callback])
+### stream.write(data)
 
 Returns `true` if data is written immediately or `false` if data is buffered in socket.
 
